@@ -45,3 +45,7 @@ BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:8.1.0/OPM1.171019.011/04110359:
 TARGET_VENDOR := oneplus
 
 XTENDED_BUILD_TYPE := OFFICIAL
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xtended.maintainer=Mukesh_Singh  
